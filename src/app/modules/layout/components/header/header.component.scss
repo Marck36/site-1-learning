@@ -2,3 +2,20 @@
   width: 15px;
   height: 15px;
 }
+
+.menu-bar {
+    background-color: rgba(237, 147, 31, 1);
+    border-radius: 2px;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: all .25s ease-in-out;
+    width: 100%;
+}
+
+.bars-div {
+    height: 32px;
+    margin: auto;
+    position: relative;
+    width: 40px;
+}
