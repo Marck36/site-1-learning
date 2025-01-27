@@ -7,8 +7,8 @@ import { SharedModule } from '../shared/shared.module';
 import { RenovaModule } from '../renova/renova.module';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { LayoutComponent } from './layout.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './pages/header/header.component';
+import { FooterComponent } from './pages/footer/footer.component';
 import { ContentComponent } from './components/content/content.component';
 
 @NgModule({
