@@ -32,10 +32,213 @@ input, textarea {
 }
 
 input::placeholder, textarea::placeholder {
-    color: rgba(91, 111, 118, 1); /* Define a cor do placeholder */
+  color: rgba(91, 111, 118, 1); /* Define a cor do placeholder */
 }
 
 .custom-hr {
   border: 5px solid rgba(237, 147, 31, 1);
   width: 40%;
 }
+
+.service-cards {
+  height: 65vh;
+  width: 89vw;
+
+  @media (min-width: 576px) {
+    height: 65vh;
+    width: 89vw; /* Ajuste para telas médias */
+  }
+
+  @media (min-width: 768px) {
+    width: 13vw; /* Ajuste para telas grandes */
+    height: 52vh;
+  }
+}
+
+.responsive-card-body {
+
+  @media (min-width: 768px) {
+    justify-content: start !important;
+  }
+}
+
+.section3-card-title {
+  font-family: 'libre baskerville', serif;
+  line-height: 1em;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 32px !important;
+  }
+}
+
+.section3-card-text {
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 16px !important;
+    text-align: center;
+    padding: 0% 8%;
+  }
+}
+
+.section3-card-button {
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(237, 147, 31, 1);
+  font-size: 20px;
+
+  @media (min-width: 768px) {
+    font-size: 16px !important;
+    padding: 6% 20% !important;
+  }
+}
+
+.section3-div-top {
+  width: auto; /* Tamanho padrão para telas pequenas */
+  height: auto;
+  background-color: rgba(216, 234, 240, 1);
+
+  @media (min-width: 768px) {
+    width: 100%; /* Ajuste para telas grandes */
+    height: 45vh;
+  }
+}
+
+.section3-div-top2 {
+
+  @media (min-width: 768px) {
+    translate: 0% 20%;
+  }
+}
+
+.section3-div-bottom {
+  width: 0; /* Tamanho padrão para telas pequenas */
+  height: 0;
+
+  @media (min-width: 768px) {
+    width: 100%; /* Ajuste para telas grandes */
+    height: 38vh;
+  }
+}
+
+.responsive-img {
+  width: 92vw; /* Tamanho padrão para telas pequenas */
+  height: auto;
+
+  @media (min-width: 576px) {
+    width: 92vw; /* Ajuste para telas médias */
+  }
+
+  @media (min-width: 768px) {
+    width: 50vw; /* Ajuste para telas grandes */
+    height: 62vh;
+  }
+}
+
+.responsive-section2 {
+  border: 10px solid rgba(183, 223, 237, 1);
+  width: 95vw; /* Tamanho padrão para telas pequenas */
+  height: auto;
+
+  @media (min-width: 576px) {
+    width: 95vw; /* Ajuste para telas médias */
+  }
+
+  @media (min-width: 768px) {
+    width: 94%; /* Ajuste para telas grandes */
+    height: 54vh;
+    translate: -14% 0;
+  }
+}
+
+.section2-span {
+  font-family: 'libre baskerville', serif;
+  line-height: 2.3rem;
+  font-size: 32px;
+  font-weight: 500;
+
+  @media (min-width: 768px) {
+    font-size: 40px !important;
+    letter-spacing: normal; /* Ajusta o espaçamento entre as letras para telas maiores */
+  }
+}
+
+.section2-span2 {
+  color: rgba(91, 111, 118, 1);
+
+  @media (min-width: 768px) {
+    font-size: 16px !important;
+  }
+}
+
+.responsive-section1 {
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 576px) {
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) {
+    align-items: start;
+    justify-content: start;
+  }
+}
+
+.section1-span1 {
+  font-family: 'libre baskerville', serif;
+  line-height: 1em;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 48px !important;
+    letter-spacing: normal; /* Ajusta o espaçamento entre as letras para telas maiores */
+    text-align: start;
+  }
+}
+
+.section1-span2 {
+  text-align: center !important;
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 16px !important;
+    text-align: start !important;
+  }
+}
+
+.section1-span3 {
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(237, 147, 31, 1);
+  padding: 8% 0%;
+
+  @media (min-width: 576px) {
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    height: auto !important;
+  }
+}
+
+// .section4-responsive-svg {
+//   width: 104px !important; /* Tamanho padrão para telas pequenas */
+//   height: 104px !important;
+
+//   @media (min-width: 768px) {
+//     width: 128px !important; /* Ajuste para telas grandes */
+//     height: 112px !important;
+//   }
+// }
