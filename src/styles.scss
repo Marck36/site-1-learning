@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent !important;	
+    color: rgba(237, 147, 31, 1) !important;
+  }
+
+  .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    --bs-offcanvas-bg: rgba(240, 233, 233, 1) !important;
+    width: 100% !important;
+  }

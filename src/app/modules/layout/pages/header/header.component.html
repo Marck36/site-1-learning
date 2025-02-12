@@ -1,6 +1,6 @@
 <div class="col-12 d-flex flex-column justify-content-center">
 
-  <div class="col-12 py-2 pe-md-4 d-flex flex-row justify-content-center border" style="background-color: rgba(20, 22, 27, 0.5);">
+  <div class="col-12 py-2 pe-md-4 d-flex flex-row justify-content-center" style="background-color: rgba(20, 22, 27, 0.5);">
     <span class="fs-5 top-bar">
       <svg class="phone-icon pe-2 responsive-phone-icon" preserveAspectRatio="xMidYMid meet" data-bbox="1.489 -0.074 196.972 199.974" xmlns="http://www.w3.org/2000/svg" viewBox="1.489 -0.074 196.972 199.974" role="presentation" aria-hidden="true">
         <g>
@@ -12,8 +12,8 @@
     </span>
   </div>
 
-  <div class="py-4 d-flex flex-row justify-content-between border">
-    <div class="col-6 d-flex flex-row responsive-div1 border">
+  <div class="py-4 d-flex flex-row justify-content-between">
+    <div class="col-6 d-flex flex-row responsive-div1">
       <div class="col-6 responsive-div2"></div>
       <div class="col-6 d-flex flex-column responsive-div3">
         <h1 class="text-white pt-2 mb-md-0" style="font-family: 'libre baskerville', serif; line-height: 1em; font-size: 40px; font-weight: 600; font-style: italic;">Renova</h1>
@@ -21,21 +21,65 @@
       </div>
     </div>
 
-    <div class="menu col-1 col-md-5 d-flex flex-row align-items-center justify-content-end border">
+    <div class="menu col-1 col-md-5 d-flex flex-row align-items-center justify-content-end">
 
-      <a href="#" class="menu-items text-white fs-6 pe-4">INÍCIO</a>
-      <a href="#" class="menu-items text-white fs-6 pe-4">A EMPRESA</a>
-      <a href="#" class="menu-items text-white fs-6 pe-4">SERVIÇOS</a>
-      <a href="#" class="menu-items text-white fs-6 pe-4">CLIENTES</a>
-      <a href="#" class="menu-items text-white fs-6 pe-4">CONTATO</a>
+      <nav id="header-navbar" class="navbar">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link menu-items text-white fs-6 pe-4" href="#scrollspyHeading1">INÍCIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-items text-white fs-6 pe-4" href="#scrollspyHeading2">A EMPRESA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-items text-white fs-6 pe-4" href="#scrollspyHeading3">SERVIÇOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-items text-white fs-6 pe-4" href="#scrollspyHeading4">CLIENTES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-items text-white fs-6 pe-4" href="#scrollspyHeading5">CONTATO</a>
+          </li>
+        </ul>
+      </nav>
 
     </div>
 
-    <div class="col-5 col-md-1 d-flex flex-column align-items-end justify-content-center border">
+    <div class="col-5 col-md-1 d-flex flex-column align-items-end justify-content-center">
       <div class="d-flex flex-column justify-content-center menu-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="56" fill="rgba(237, 147, 31, 1)" class="bi bi-justify" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 "/>
-        </svg>
+        <button class="btn" data-bs-toggle="offcanvas" href="#offcanvasMenu" aria-controls="offcanvasMenu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="56" fill="rgba(237, 147, 31, 1)" class="bi bi-justify" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 "/>
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas offcanvas-end pt-5 align-items-center justify-content-center" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header col-12 pt-5">
+        </div>
+        <div class="offcanvas-body pt-5">
+          <div class="d-flex justify-content-end align-items-center pt-5">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="column col-12">
+            <div id="sidebar-menu" class="col-12 d-flex flex-wrap align-items-center justify-content-center">
+              <div class="sidebar-menu col-12">
+                <a class="list-group-item list-group-item-action sidebar-menu-items" href="#scrollspyHeading1">INÍCIO</a>
+              </div>
+              <div class="sidebar-menu col-12">
+                <a class="list-group-item list-group-item-action sidebar-menu-items" href="#scrollspyHeading2">A EMPRESA</a>
+              </div>
+              <div class="sidebar-menu col-12">
+                <a class="list-group-item list-group-item-action sidebar-menu-items" href="#scrollspyHeading3">SERVIÇOS</a>
+              </div>
+              <div class="sidebar-menu col-12">
+                <a class="list-group-item list-group-item-action sidebar-menu-items" href="#scrollspyHeading4">CLIENTES</a>
+              </div>
+              <div class="sidebar-menu col-12">
+                <a class="list-group-item list-group-item-action sidebar-menu-items" href="#scrollspyHeading5">CONTATO</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

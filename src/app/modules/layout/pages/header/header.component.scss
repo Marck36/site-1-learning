@@ -49,7 +49,7 @@
   translate: 0% 0%;
 
   @media (min-width: 768px) {
-    translate: -54% 0%;
+    translate: -58% 0%;
   }
 }
 
@@ -64,10 +64,14 @@
 .menu {
   text-decoration: none !important;
   z-index: -10;
+  height: 0;
+  width: 0;
 
   @media (min-width: 768px) {
+    height: auto;
+    width: auto;
     z-index: 0;
-    translate: 14% 0%;
+    translate: 44% 0%;
   }
 }
 
@@ -76,4 +80,18 @@
   @media (min-width: 768px) {
     text-decoration: none !important;
   }
+}
+
+.sidebar-menu {
+  text-decoration: none !important;
+  padding: 16px 20%;
+  border-bottom: black 1px solid;
+  width: 70%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center  !important;
+}
+
+.sidebar-menu-items {
+  text-align: center;
 }
