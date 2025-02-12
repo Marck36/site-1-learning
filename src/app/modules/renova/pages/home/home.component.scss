@@ -14,13 +14,21 @@
     width: 100%;
     height: 160%;
     z-index: -2;
+    @media (min-width: 768px) {
+      background-image: url('../../../../../assets/images/background-img-rspA.avif');
+    }
   }
+
 }
 
 .bg-img-section4 {
   background-image: url('../../../../../assets/images/bg-img-sectiond.png');
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (min-width: 768px) {
+    background-image: url('../../../../../assets/images/background-img-rspD.avif');
+  }
 }
 
 .card {
