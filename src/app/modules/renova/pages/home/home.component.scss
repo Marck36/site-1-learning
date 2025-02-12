@@ -14,6 +14,7 @@
     width: 100%;
     height: 160%;
     z-index: -2;
+    
     @media (min-width: 768px) {
       background-image: url('../../../../../assets/images/background-img-rspA.avif');
     }
@@ -62,11 +63,6 @@ input::placeholder, textarea::placeholder {
 .service-cards {
   height: 65vh;
   width: 89vw;
-
-  @media (min-width: 576px) {
-    height: 65vh;
-    width: 89vw;
-  }
 
   @media (min-width: 768px) {
     width: 13vw;
@@ -149,10 +145,6 @@ input::placeholder, textarea::placeholder {
   width: 92vw;
   height: auto;
 
-  @media (min-width: 576px) {
-    width: 92vw;
-  }
-
   @media (min-width: 768px) {
     width: 50vw;
     height: 62vh;
@@ -163,10 +155,6 @@ input::placeholder, textarea::placeholder {
   border: 10px solid rgba(183, 223, 237, 1);
   width: 95vw;
   height: auto;
-
-  @media (min-width: 576px) {
-    width: 95vw;
-  }
 
   @media (min-width: 768px) {
     width: 94%;
@@ -198,11 +186,6 @@ input::placeholder, textarea::placeholder {
 .responsive-section1 {
   align-items: center;
   justify-content: center;
-
-  @media (min-width: 576px) {
-    align-items: center;
-    justify-content: center;
-  }
 
   @media (min-width: 768px) {
     align-items: start;
@@ -242,10 +225,6 @@ input::placeholder, textarea::placeholder {
   justify-content: center;
   background-color: rgba(237, 147, 31, 1);
   padding: 8% 0%;
-
-  @media (min-width: 576px) {
-    height: auto;
-  }
 
   @media (min-width: 768px) {
     height: auto !important;
